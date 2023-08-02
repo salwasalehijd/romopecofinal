@@ -849,4 +849,9 @@ color: #366939 !important;
 .accordion-button:not(.collapsed){
   background-color: unset !important;
 }
+.buybutton{
+  width: 25%;
+  height: 25%;
+  color: white;
+}
 
