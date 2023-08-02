@@ -845,3 +845,8 @@ color: #366939 !important;
     z-index: -1;
 }
 }
+
+.accordion-button:not(.collapsed){
+  background-color: unset !important;
+}
+
