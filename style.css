@@ -823,3 +823,25 @@ color: #366939 !important;
     padding-top: 5rem !important;
   }
 }
+.accordion button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.accordion-header:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .form-circle {
+    position: absolute;
+    top: -2%;
+    right: 10%;
+    height: 60px;
+    width: 60px;
+    background-color: #ffd544;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -1;
+}
+}
