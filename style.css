@@ -738,7 +738,9 @@ color:#237227;
    background-image: url(imgs/greenarrow.png) !important; 
   transform: var(--bs-accordion-btn-icon-transform);
 }
-
+.accordion-button:not(.collapsed){
+  background-color: unset !important;
+}
 
 .myborder{
   border-color:#366939 !important;
@@ -845,28 +847,16 @@ color: #366939 !important;
     z-index: -1;
 }
 }
-
-.accordion-button:not(.collapsed){
-  background-color: unset !important;
+.accordion-header:not(.collapsed):focus {
+  box-shadow: none;
 }
+
 .buybutton{
   width: 25%;
   height: 25%;
   color: white;
 }
 
-
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-  color: white;
-}
 .btn-group  .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
