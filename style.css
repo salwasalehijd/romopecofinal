@@ -875,3 +875,4 @@ color: #366939 !important;
 
   color: black !important;
 }
+nav .dropdown-toggle::after{color:black}
