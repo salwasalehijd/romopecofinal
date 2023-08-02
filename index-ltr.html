@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Romopeco</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ms-auto mb-2 mb-lg-0" -->
+    <!-- navbar beggining -->
+    <nav class="navbar navbar-expand-lg py-4">
+      <div class="container">
+        <a class="navbar-brand nav-link" href="#">
+          <img src="imgs/romopeco-logo.svg" width="150" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="imgs/romopeco-logo.svg" width="150" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav nav-pills mb-2 mb-lg-0">
+              <li class="nav-item foractive">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item foractive">
+                <a class="nav-link" href="#">عن Romopeco</a>
+              </li>
+              <li class="nav-item foractive">
+                <a class="nav-link" href="#"> تفعيل الضمان</a>
+              </li>
+
+              <li class="nav-item foractive">
+                <a class="nav-link" href="#"> الأسئلة الشائعة</a>
+              </li>
+
+              <li class="nav-item foractive">
+                <a class="nav-link" href="#"> إتصل بنا </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto" id="language-list">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle black-text"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  اللغة
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="index.html">عربي</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index-ltr.html">English</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- add font awesome here -->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- first section beggining -->
+
+    <div class="container firstsection py-xs-5 py-lg-0">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6  mb-5 firsttext">
+          <h3 class="section-one-title">
+            سهلة الاستخدام،
+            <br />
+            لحياتك اليومية !
+          </h3>
+          <p class="section-one-description my-4 w-75">
+            نقدم لكم منتجنا لتنظيف الارضيات مع قطع مسح استخدام واحد صديقة
+            للبيئة، سهل الاستخدام واسلوب حياة، نتطلع للتعاون معك وشكرا لوقتك.
+          </p>
+          <button class="button btnhover">المزيد</button>
+        </div>
+        <div
+          class="col-xs-12 col-lg-6 d-flex justify-content-center align-items-center p-0 firstSectionDesign-ltr"
+          id="firstsec"
+          dir="rtl"
+        >
+          <div class="row position-absolute">
+            <div class="col-4 package-column">
+              <div>
+                <img
+                  src="imgs/package-no-shadow.png"
+                  class="package-img"
+                  alt=""
+                />
+                <div class="yellow-dot"></div>
+                <p style="font-size: smaller " class="text-white">تغليف صديق</p>
+              </div>
+            </div>
+
+            <div class="col-4 mop-column">
+              <div>
+                <span class="first-text-mop">
+                  <p class="d-inline-block" style="font-size: smaller">
+                    عصى بامبو
+                  </p>
+                  <div class="yellow-dot d-inline-block"></div>
+                </span>
+                <img
+                  src="imgs/mop-no-whitespace.png"
+                  class="mop-img position-relative"
+                  alt=""
+                />
+                <span class="position-absolute second-text-mop">
+                  <p class="d-inline-block" style="font-size: smaller">
+                    لوح المسح
+                  </p>
+                  <div class="yellow-dot d-inline-block"></div>
+                </span>
+              </div>
+            </div>
+            <div class="col-4 roll-column">
+              <div>
+                <img src="imgs/roll-no-shadow.png" class="roll-image" alt="" />
+                <div class="yellow-bcircle"></div>
+                <div class="yellow-dot"></div>
+                <p style="font-size: smaller">رول قطع</p>
+              </div>
+            </div>
+          </div>
+          <div class="yellow-bcircletwo-ltr"></div>
+          <div class="greensquare position-relative"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- first section end -->
+
+    <!-- second section start -->
+    <div class="secondsection ">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h2 class="title">عن Romopeco</h2>
+
+            <p class="text-center fw-bolder col-12 py-5">
+              علامة تجاریة سعودیة بمقاییس وجودة عالمیة، تھدف الى جعل من نمط
+              الحیاة سھل، نظیف وصدیق للبیئة. المنتج لشركة مرو الریاض للتجارة،
+              سجل تجاري رقم: ،1010189368 رومبيكو ممسحة ارض بقطع غیار استخدام
+              واحد و صدیقة للبیئة. یستخدم على جمیع اسطح الأرضیة المجھزة ،سوف
+              یحبھ الجمیع، ھل الاستخدام ،امسح وتخلص منھا في سلة إعادة التدویر،
+              صدیقة للبیئة.
+            </p>
+          </div>
+        </div>
+        <div class="">
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <div
+                class="card border-0 cardone"
+              >
+                <span
+                  class="badge rounded-pill bg-danger position-absolute"
+                  style="right:15%"
+                  >وفر 30%</span
+                >
+
+                <img
+                  src="imgs/card-img-2.png"
+                  class="card-img-top position-relative"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bolder">
+                    ممسحة Romopeco من ثلاث غيارات !
+                  </h5>
+                  <p class="card-text fw-bolder">
+                    هي ممسحة تدوم معكم كاستخدام يومي لمدة 30 يوم، ستحصل على عصى
+                    البامبو، لوحة المسح، 2 رول قطع للمسح.
+                  </p>
+                  <a href="#" class="btn btn-primary rounded-pill w-25">شراء</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <div
+                class="card border-0  cardtwo"
+              >
+                <img src="imgs/card-img.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title fw-bolder">
+                    ممسحة Romopeco مع غيارين !
+                  </h5>
+                  <p class="card-text fw-bolder">
+                    2 رول قطع للمسح هي ممسحة تدوم معكم كاستخدام يومي لمدة 30
+                    يوم، ستحصل على عصى البامبو، لوحة المسح،
+                  </p>
+                  <a href="#" class="btn btn-primary rounded-pill w-25">شراء</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- second section end -->
+
+    <!-- third section start -->
+
+    <div class="third-section py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h2 class="title">كيفية الاستخدام</h2>
+            <p class="text-center fw-bolder py-4 w-100">
+              قم بتركیب عصا البامبو على رأس الممسحة ذا اللون الابیض الجمیل،
+              بعدھا اقطع قطعة مسح من روول المسح الصدیقة للبیئة وركبھا بكل سھولھ
+              على رأس الممسحة وابدأ بمسح الاسطح بشكل جاف او مبلل كما تحب.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-lg-4 col-xs-12 d-flex justify-content-center align-items-center position-relative flex-column vid"
+          >
+            <div class="video-container">
+              <div class="line-video-ltr"></div>
+              <div class="circle-number-ltr" style="font-size: x-small">1</div>
+              <a href="https://www.youtube.com">
+                <img src="imgs/image-gif.PNG" class="video image-gif" alt="" />
+              </a>
+            </div>
+            <div class="videoText">
+              <div class="video-word">إقطع</div>
+
+              <p class="video-p fw-bolder">وثبت في ممسحتك !</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-xs-12 d-flex justify-content-center align-items-center position-relative flex-column vid"
+          >
+            <div class="video-container">
+              <div class="line-video-ltr"></div>
+              <div class="circle-number-ltr" style="font-size: x-small">2</div>
+              <a href="https://www.youtube.com">
+                <img src="imgs/image-gif.PNG" class="video image-gif" alt="" />
+              </a>
+            </div>
+            <div class="videoText">
+              <div class="video-word">إمسح</div>
+
+              <p class="video-p fw-bolder">الأرضية للتنظيف</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-xs-12 d-flex justify-content-center align-items-center position-relative flex-column"
+          >
+            <div class="video-container">
+              <div class="line-video-ltr"></div>
+              <div class="circle-number-ltr" style="font-size: x-small">3</div>
+              <a href="https://www.youtube.com">
+                <img src="imgs/image-gif.PNG" class="video image-gif" alt="" />
+              </a>
+            </div>
+            <div class="videoText">
+              <div class="video-word">تدوير</div>
+
+              <p class="video-p fw-bolder">في سلة المهملات</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- third section end -->
+
+    <!-- fourth section start -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10 formnorm">
+          <div class="form-circle"></div>
+          <div class="form-circle-2-ltr"></div>
+          <div class="">
+            <div class="row py-5 text-white">
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Barcode.png" class="icons" alt="barcide" />
+                <p class="d-inline-block">باركود مميز</p>
+                <p class="w-50">باركود مميز ممسحتك عن الأخرين والكثير</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Car.png" alt="truck" class="icons" />
+                <p class="d-inline-block">شحن سريع</p>
+                <p class="w-50">إحصل على شحنتك خلال 5 أيام عمل في السعودية</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/warrenty.png" alt="truck" class="icons" />
+                <p class="d-inline-block">ضمان</p>
+                <p class="w-50">ضمان لمدة عام من التاريخ التفعيل</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-xs-12">
+                <h2 class="list-title position-relative text-white">
+                  تفعيل الضمان !
+                </h2>
+
+                <ul class="text-white p-xs-0 ">
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">لمدة عام من تاريخ الشراء</p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسحة يتم
+                    </p>
+                  </li>
+
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسسحة يتم
+                    </p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">الدخول في مجتمع</p>
+                    <p
+                      class="d-inline-block text-danger"
+                      style="font-size: smaller"
+                    >
+                      قريبا
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-lg-6 col-xs-12 d-flex justify-content-center flex-column"
+              >
+                <video
+                  src="videos/Muppet.mp4"
+                  controls
+                  class="w-100 px-5"
+                ></video>
+                <span class="px-5 m-auto">
+                  <div class="yellow-dot d-inline-block"></div>
+                  <p class="text-white d-inline-block px-5">
+                    طريقة التفعيل
+                  </p></span
+                >
+              </div>
+            </div>
+            <div class="form">
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >السيريال نمبر
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3"
+                      placeholder="رقم المنتج..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <!-- com -->
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control rounded-pill myborder border-3"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- second row -->
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >رقم الجوال
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3"
+                      placeholder=" +966XXXXXXX"
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <label for="1" class="form-label text-white">البلد </label>
+                  <div class="mb-3 w-100">
+                    <div class="btn-group w-75">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary rounded-pill myborder border-3 dropdown-toggle d-flex justify-content-between align-items-center dropdownbutton text-dark"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span class="text-start yellow-text">البلد </span>
+                        <span class="caret ms-2"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">option one</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- com -->
+
+                <div class="  col-lg-4 col-xs-12">
+                  <p>هل تحتاج المساعدة</p>
+                  <p class="d-inline-block px-2 text-white">الدعم الفني</p>
+                  <img src="imgs/Whatsapp.png" class="icons-two" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-5">
+              <button class="form-button">تفعيل</button>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth section end -->
+
+    <!-- fourth section start version two -->
+    <br />
+    <br /><br /><br />
+    <br />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10 formnorm">
+          <div class="form-circle"></div>
+          <div class="form-circle-2-ltr"></div>
+          <div class="">
+            <div class="row py-5 text-white">
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Barcode.png" class="icons" alt="barcide" />
+                <p class="d-inline-block">باركود مميز</p>
+                <p class="w-50">باركود مميز ممسحتك عن الأخرين والكثير</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Car.png" alt="truck" class="icons" />
+                <p class="d-inline-block">شحن سريع</p>
+                <p class="w-50">إحصل على شحنتك خلال 5 أيام عمل في السعودية</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/warrenty.png" alt="truck" class="icons" />
+                <p class="d-inline-block">ضمان</p>
+                <p class="w-50">ضمان لمدة عام من التاريخ التفعيل</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-xs-12">
+                <h2 class="list-title-v2 position-relative text-white">
+                  تفعيل الضمان !
+                </h2>
+
+                <ul class="text-white p-0">
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">لمدة عام من تاريخ الشراء</p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسحة يتم
+                    </p>
+                  </li>
+
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسسحة يتم
+                    </p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">الدخول في مجتمع</p>
+                    <p
+                      class="d-inline-block text-danger"
+                      style="font-size: smaller"
+                    >
+                      قريبا
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-lg-6 col-xs-12 d-flex justify-content-center flex-column"
+              >
+                <video
+                  src="videos/Muppet.mp4"
+                  controls
+                  class="w-100 px-5"
+                ></video>
+                <span class="px-5 m-auto">
+                  <div class="yellow-dot d-inline-block"></div>
+                  <p class="text-white d-inline-block px-5">طريقة التفعيل</p>
+                </span>
+              </div>
+            </div>
+            <div class="form">
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >السيريال نمبر
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3 inputdark"
+                      placeholder="رقم المنتج..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <!-- com -->
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3 inputdark"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control rounded-pill myborder border-3 inputdark"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- second row -->
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >رقم الجوال
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill myborder border-3 inputdark"
+                      placeholder=" +966XXXXXXX"
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <label for="1" class="form-label text-white inputdark">البلد </label>
+                  <div class="mb-3 w-100">
+                    <div class="btn-group w-75">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary rounded-pill myborder border-3 dropdown-toggle d-flex justify-content-between align-items-center dropdownbutton text-dark"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span class="text-start inputdarkbtn">البلد </span>
+                        <span class="caret ms-2"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">option one</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- com -->
+
+                <div class="  col-lg-4 col-xs-12">
+                  <p>هل تحتاج المساعدة</p>
+                  <p class="d-inline-block px-2 text-white">الدعم الفني</p>
+                  <img src="imgs/Whatsapp.png" class="icons-two" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-5">
+              <button class="form-button-v2 btnhover">تفعيل</button>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth section start version two end-->
+
+    <!-- fourth section version three -->
+    <br />
+    <br /><br /><br />
+    <br />
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10 formnorm">
+          <div class="cover">
+            <div class="row w-100">
+              <div class="col-lg-6 col-xs-12 ">
+                <!-- salwa writes here -->
+                <div >
+                  <h2 class="form-title-ltr text-white bgtxt">تاريخ تسجيل الممسحة</h2>
+
+                  <h2 class="form-title-n text-white">02/05/2023</h2>
+                  <h2 class="form-title-n text-white">02:35PM</h2>
+                  <p class="yellow-text">هل تحتاج المساعدة</p>
+                  <img src="imgs/Whatsapp.png" class="icons-two" />
+                  <p class="text-white d-inline-block px-2">الدعم الفني</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xs-12 d-flex justify-content-end">
+                <div>
+                  <img src="imgs/Icons/Barcode.png" class="icon-three" alt="" />
+                <div class="px-3">
+                  <p class="text-white m-auto py-2">XXXXXXXXXXX</p>
+                  <p class="yellow-text">الباركود الخاص بك</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-circle"></div>
+          <div class="form-circle-2-ltr"></div>
+
+          <div class="">
+            <div class="row py-5 text-white">
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Barcode.png" class="icons" alt="barcide" />
+                <p class="d-inline-block">باركود مميز</p>
+                <p class="w-50">باركود مميز ممسحتك عن الأخرين والكثير</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Car.png" alt="truck" class="icons" />
+                <p class="d-inline-block">شحن سريع</p>
+                <p class="w-50">إحصل على شحنتك خلال 5 أيام عمل في السعودية</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/warrenty.png" alt="truck" class="icons" />
+                <p class="d-inline-block">ضمان</p>
+                <p class="w-50">ضمان لمدة عام من التاريخ التفعيل</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-xs-12">
+                <h2 class="list-title-v2 position-relative text-white">
+                  تفعيل الضمان !
+                </h2>
+
+                <ul class="text-white">
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">لمدة عام من تاريخ الشراء</p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسحة يتم
+                    </p>
+                  </li>
+
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسسحة يتم
+                    </p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">الدخول في مجتمع</p>
+                    <p
+                      class="d-inline-block text-danger"
+                      style="font-size: smaller"
+                    >
+                      قريبا
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-xs-12">
+                <video
+                  src="videos/Muppet.mp4"
+                  controls
+                  class="w-100 px-5"
+                ></video>
+                <span class="px-5 m-auto">
+                  <div class="yellow-dot d-inline-block"></div>
+                  <p class="text-white d-inline-block px-5">طريقة التفعيل</p>
+                </span>
+              </div>
+            </div>
+            <div class="form">
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >السيريال نمبر
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3 inputdark"
+                      placeholder="رقم المنتج..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <!-- com -->
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3 inputdark"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control rounded-pill border border-3 inputdark"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- second row -->
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >رقم الجوال
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3 inputdark"
+                      placeholder=" +966XXXXXXX"
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <label for="1" class="form-label text-white">البلد </label>
+                  <div class="mb-3 w-75">
+                    <div class="btn-group w-75">
+                      <button
+                        type="button"
+                        class="btnhover btn btn-outline-secondary rounded-pill border border-3 dropdown-toggle d-flex justify-content-between align-items-center"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span class="text-start text-dark">البلد </span>
+                        <span class="caret ms-2"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">option one</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- com -->
+
+                <div class="col-4">
+                  <p>هل تحتاج المساعدة</p>
+                  <p class="d-inline-block px-2 text-white">الدعم الفني</p>
+                  <img src="imgs/Whatsapp.png" class="icons" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-5">
+              <div class="col-12 p-0">
+                <button class="form-button-v3">تفعيل</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth section version three end -->
+
+    <!-- fourth section version four start -->
+    <br /><br /><br /><br /><br />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10 formnorm">
+          <div class="cover">
+            <div class="row w-100">
+              <div class="col-lg-12 col-xs-12 d-flex justify-content-center">
+                <!-- salwa writes here -->
+                <div>
+                  <h2 class="form-title-ltr text-white">تاريخ تسجيل الممسحة</h2>
+
+                  <h2 class="form-title-n text-white">-</h2>
+                  <h2 class="form-title-n text-white">-</h2>
+                  <p class="yellow-text">هل تحتاج المساعدة</p>
+                  <img src="imgs/Whatsapp.png" class="icons-two" />
+                  <p class="text-white d-inline-block px-2">الدعم الفني</p>
+                </div>
+              </div>
+              <!-- <div class="col-lg-6 col-xs-12 d-flex justify-content-center">
+                <div>
+                  <img src="imgs/Icons/Barcode.png" class="icon-three" alt="" />
+
+                  <p class="text-white m-auto py-2">XXXXXXXXXXX</p>
+                  <p class="yellow-text">الباركود الخاص بك</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="form-circle"></div>
+          <div class="form-circle-2-ltr"></div>
+
+          <div class="">
+            <div class="row py-5 text-white">
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Barcode.png" class="icons" alt="barcide" />
+                <p class="d-inline-block">باركود مميز</p>
+                <p class="w-50">باركود مميز ممسحتك عن الأخرين والكثير</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/Car.png" alt="truck" class="icons" />
+                <p class="d-inline-block">شحن سريع</p>
+                <p class="w-50">إحصل على شحنتك خلال 5 أيام عمل في السعودية</p>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <img src="imgs/Icons/warrenty.png" alt="truck" class="icons" />
+                <p class="d-inline-block">ضمان</p>
+                <p class="w-50">ضمان لمدة عام من التاريخ التفعيل</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-xs-12">
+                <h2 class="list-title-v2 position-relative text-white">
+                  تفعيل الضمان !
+                </h2>
+
+                <ul class="text-white">
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">لمدة عام من تاريخ الشراء</p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسحة يتم
+                    </p>
+                  </li>
+
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">
+                      في حالة تلف رأس الممسسحة يتم
+                    </p>
+                  </li>
+                  <li>
+                    <div class="yellow-dot d-inline-block"></div>
+
+                    <p class="px-2 d-inline-block">الدخول في مجتمع</p>
+                    <p
+                      class="d-inline-block text-danger"
+                      style="font-size: smaller"
+                    >
+                      قريبا
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-xs-12">
+                <video
+                  src="videos/Muppet.mp4"
+                  controls
+                  class="w-100 px-5"
+                ></video>
+                <span class="px-5 m-auto">
+                  <div class="yellow-dot d-inline-block"></div>
+                  <p class="text-white d-inline-block px-5">طريقة التفعيل</p>
+                </span>
+              </div>
+            </div>
+            <div class="form">
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >السيريال نمبر
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3 inputdark"
+                      placeholder="رقم المنتج..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <!-- com -->
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >الاسم الثلاثي
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control rounded-pill border border-3"
+                      placeholder=" الاسم هنا..."
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- second row -->
+              <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                  <div class="mb-3 w-75">
+                    <label for="1" class="form-label text-white"
+                      >رقم الجوال
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control rounded-pill border border-3"
+                      placeholder=" +966XXXXXXX"
+                      id=""
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                  <label for="1" class="form-label text-white">البلد </label>
+                  <div class="mb-3 w-75">
+                    <div class="btn-group w-75">
+                      <button
+                        type="button"
+                        class="btnhover btn btn-outline-secondary rounded-pill border border-3 dropdown-toggle d-flex justify-content-between align-items-center"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span class="text-start text-dark">البلد </span>
+                        <span class="caret ms-2"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">option one</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- com -->
+
+                <div class="col-4">
+                  <p>هل تحتاج المساعدة</p>
+                  <p class="d-inline-block px-2 text-white">الدعم الفني</p>
+                  <img src="imgs/Whatsapp.png" class="icons" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-5">
+              <div class="col-12 p-0">
+                <button class="form-button-v4">تفعيل</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth section version four end -->
+
+    <!-- fifth section start -->
+
+    <br />
+
+    <br />
+    <br />
+
+    <br />
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items-center">
+            <h2 class="title">الأسئلة الشائعة</h2>
+          </div>
+          <div class="accordion accordion-flush py-5" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the first item's accordion body.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fifth section end -->
+
+    <!-- last section start -->
+
+    <div>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center py-5">
+          <h2 class="title-contactus">إتصل بنا</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-xs-12 text-white green-background">
+            
+          </div>
+          <div class="col-3 col-xs-12 text-white green-background">
+            <h2>الجوال</h2>
+            <p>00995XXXX</p>
+          </div>
+          <div class="col-3 col-xs-12 text-white green-background">
+            <h2>البريد الالكتروني</h2>
+            <p>test@test.com</p>
+          </div>
+          <div class="col-3 col-xs-12 text-center">
+            <h2>العنوان</h2>
+            <p>street address building number</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- last section end -->
+
+    <!-- footer start -->
+
+    <div class="py-5 lastsection">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-xs-12">
+            <p class="d-inline-block">تصميم وتطوير</p>
+            <img src="imgs/Tellers.png" class="icons-two d-inline-block">
+          </div>
+          <div class="col-4 col-xs-12">
+            <p>جميع الحقوق محفوظة ل</p>
+          </div>
+          <div class="col-4 col-xs-12">
+           
+            <a
+            class="nav-link d-inline-block px-2"
+            href="https://www.youtube.com/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        
+       
+          <a
+            class="nav-link d-inline-block px-2"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        
+       
+          <a class="nav-link d-inline-block px-2" href="https://twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
